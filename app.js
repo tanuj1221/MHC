@@ -2,14 +2,21 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Serve static files from the public directory
+// Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Serve index.html for all routes
+// HTML routes
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
+});
+
+// Handle all other routes to support SPA if needed
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
 
-app.listen(3000, () => {
-    console.log('Server running on port 3000');
+// Listen on port 80 (requires sudo)
+const PORT = 80;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
