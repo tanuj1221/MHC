@@ -2,7 +2,10 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Serve static files from individual directories
+// Set base URL for assets
+const baseURL = process.env.NODE_ENV === 'production' ? 'http://mhctrafficindia.com' : '';
+
+// Serve static files with absolute paths
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/js', express.static(path.join(__dirname, 'js')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
