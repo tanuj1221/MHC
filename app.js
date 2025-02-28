@@ -2,11 +2,11 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Serve static files - IMPORTANT: These paths should be relative to where your app.js is located
-app.use(express.static(path.join(__dirname, 'public')));  // Add this line
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, 'public')));
 
-// Your routes
-app.get('/', (req, res) => {
+// Serve index.html for all routes
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
 
