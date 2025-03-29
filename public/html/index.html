@@ -1,81 +1,148 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MHC Traffic</title>
-        <link rel="stylesheet" href="http://3.111.171.201:8000/public/css/header.css">
-        <link rel="stylesheet" href="http://3.111.171.201:8000/public/css/hero.css">
-        <link rel="icon" href="http://3.111.171.201:8000/public/images/logo_tap.png">
-        <script src="http://3.111.171.201:8000/public/js/script.js"></script>
-    </head>
-    
-<body>
-    <!-- Top Info Bar -->
-    <!-- <div class="dt-topbar">
-        <div class="dt-topbar__content">
-            <div class="dt-topbar__contact">
-                <a href="tel:+918066901800">+91 80 6690 1800</a>
-                <a href="mailto:admin@datacorp.in">admin@datacorp.in</a>
-            </div>
-            <div class="dt-topbar__social">
-                <a href="#" class="dt-social__link">Facebook</a>
-                <a href="#" class="dt-social__link">Twitter</a>
-            </div>
-        </div>
-    </div> -->
 
-    <!-- Main Navigation -->
-    <header class="dt-header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHC Traffic</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/hero.css">
+    <link rel="icon" href="https://via.placeholder.com/50x50">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="dt-header dt-header--transparent">
         <div class="dt-header__content">
             <div class="dt-logo">
-                <img src="http://3.111.171.201:8000/public/images/logo.png" alt="Datacorp Traffic Logo">
+                <img src="..\images\logo_tap.png" alt="MHC Traffic Logo">
             </div>
-            <nav class="dt-nav">
-                <ul class="dt-nav__list">
-                    <li><a href="#hero" class="dt-nav__link">HOME</a></li>
-                    <li class="dt-nav__item--has-dropdown">
-                        <a href="#service" class="dt-nav__link">SERVICES</a>
-                        <ul class="dt-dropdown">
-                            <li><a href="#service" class="dt-dropdown__link">Data Analysis</a></li>
-                            <li><a href="#video" class="dt-dropdown__link">Data Collection</a></li>
 
-                        </ul>
-                    </li>
-                    <li><a href="#contact" class="dt-nav__link">CONTACT US</a></li>
-                </ul>
-            </nav>
+            <!-- Mobile Toggle Button -->
             <div class="dt-mobile-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+
+            <!-- Navbar -->
+            <nav class="dt-nav">
+                <ul class="dt-nav__list">
+                    <li><a href="#hero" class="dt-nav__link">HOME</a></li>
+                    <li><a href="#nationwide" class="dt-nav__link">NATIONWIDE COVERAGE</a></li>
+                    <li class="dt-nav__item--has-dropdown">
+                        <a href="#service" class="dt-nav__link">OUR SERVICES</a>
+                        <ul class="dt-dropdown">
+                            <li><a href="#service" class="dt-dropdown__link">Data Analysis</a></li>
+                            <li><a href="#video" class="dt-dropdown__link">Data Collection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#footage" class="dt-nav__link">FOOTAGE ANALYSIS & REPORTS</a></li>
+                    <li><a href="#contact" class="dt-nav__link">CONTACT US</a></li>
+                    <li><a href="#about" class="dt-nav__link">ABOUT US</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="dt-hero" id="hero">
-        <div class="dt-hero__bg"></div>
+        <div class="dt-hero__bg" style="background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"></div>
         <div class="dt-hero__content">
             <h1 class="dt-hero__title">
                 One Stop Destination For Data Collection,<br> Analytics And Advisory Services.
             </h1>
+            <div class="dt-hero__text-box">
+                <p>
+                    MHC Traffic India Pvt Ltd was formed to bring together a wealth of worldwide experience in the
+                    traffic data collection and analysis market, and to use this to serve both the public and private
+                    sectors in India by providing them with the most advanced and cutting-edge traffic data in the
+                    market.
+                </p>
+            </div>
             <a href="#service" class="dt-hero__cta">LEARN MORE</a>
         </div>
     </section>
 
+    <!-- Cutting-Edge Box in Home Page -->
+    <section class="cutting-edge-section">
+        <div class="cutting-edge-content">
+            <h2>We are cutting-edge</h2>
+            <p>We employ a combination of cutting-edge, in-house developed camera equipment and report software, which
+                allows us to undertake all types of traffic surveys, providing the HD footage to the client as
+                verifiable back-up to the data provided.</p>
+        </div>
+    </section>
+
+    <!-- Image Scrolling Section -->
+    <section class="image-scroll-section">
+        <div class="image-scroll-container">
+            <div class="image-scroll">
+                <div class="image-card">
+                    <img src="https://media.istockphoto.com/id/624460286/photo/city-crossroad-scene.jpg?s=612x612&w=0&k=20&c=6nYDRilQIwwpYhqvNNoih0tWYoYkiVZvX_Vqy5urteo=" alt="Traffic intersection analysis">
+                    <p>Traffic Intersection</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1543337280-0a85de23072f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHB1YmxpYyUyMHRyYW5zcG9ydGF0aW9ufGVufDB8fDB8fHww" alt="Bus traffic monitoring">
+                    <p>Public Transport</p>
+                </div>
+                <div class="image-card">
+                    <img src="data:image/jpeg;base64,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" alt="Highway traffic flow">
+                    <p>Highway Monitoring</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuxd_3NXu0PkCxWqOgCGbSN_JH-RaeynLH8Q&s" alt="Urban traffic congestion">
+                    <p>Urban Congestion</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRscWtVkNPVUe9wV4SCtIqZzW6K7_jj2KPEUg&s" alt="Pedestrian crossing analysis">
+                    <p>Pedestrian Flow</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://media.istockphoto.com/id/1192103258/photo/close-up-of-surveillance-camera-installation-male-hand-holds-cctv-camera.jpg?s=612x612&w=0&k=20&c=zOBgLFkcX9Wddbo1gHEOg2HCKiWc05PyqJ9xBjM3MOE=" alt="Traffic camera installation">
+                    <p>Camera Installation</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4fJcsaHp93UbvCxL_vutmH9J5NTmuL_q-hA&s" alt="Data analysis team">
+                    <p>Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <video controls poster="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+                <source src="https://v.ftcdn.net/02/44/10/34/700_F_244103433_SU95HFaIvOm46LkLot5Hex4DuNTK2WgK_ST.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Traffic Monitoring Video</p>
+        </div>
+    </section>
+
+    <!-- Nationwide Coverage Section -->
+    <section class="nationwide-section" id="nationwide">
+        <div class="nationwide-content">
+            <h2>Nationwide Coverage</h2>
+            <p>From Kerala to Punjab, Odisha to Gujarat, we've got your traffic data collection needs covered. Reach out
+                to us, and we'll handle everything from planning to data delivery.</p>
+            <img src="..\images\india_map.png" alt="Map of India with coverage areas">
+        </div>
+    </section>
+
+    <!-- Old Services Section -->
     <section class="dt-services" id="service">
         <div class="dt-services__container">
             <h2 class="dt-services__title">OUR SERVICES</h2>
             <div class="dt-services__underline"></div>
-            
             <div class="dt-services__grid">
                 <!-- Service Card 1 -->
                 <div class="dt-service-card">
                     <div class="dt-service-card__header">
                         <div class="dt-service-card__icon">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
                                 <path d="M21 8V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1"></path>
                                 <path d="M12 12v6"></path>
                                 <path d="M9 15l3 3 3-3"></path>
@@ -85,15 +152,17 @@
                     </div>
                     <div class="dt-service-card__divider"></div>
                     <p class="dt-service-card__description">
-                        With a capacity of over 70000 survey hours a week, our team of Data Analysts deliver accurate Traffic Data with Quick Turnaround for countries across the Globe
+                        With a capacity of over 70000 survey hours a week, our team of Data Analysts deliver accurate
+                        Traffic Data with Quick Turnaround for countries across the Globe.
                     </p>
                 </div>
-    
+
                 <!-- Service Card 2 -->
                 <div class="dt-service-card">
                     <div class="dt-service-card__header">
                         <div class="dt-service-card__icon">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
                                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                                 <line x1="8" y1="21" x2="16" y2="21"></line>
                                 <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -103,15 +172,17 @@
                     </div>
                     <div class="dt-service-card__divider"></div>
                     <p class="dt-service-card__description">
-                        With a wide global experience and an eye for varied technologies, our experienced Data Collection team has the perfect solution for every survey requirement
+                        With a wide global experience and an eye for varied technologies, our experienced Data
+                        Collection team has the perfect solution for every survey requirement.
                     </p>
                 </div>
-    
+
                 <!-- Service Card 3 -->
                 <div class="dt-service-card">
                     <div class="dt-service-card__header">
                         <div class="dt-service-card__icon">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
                                 <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
                                 <path d="M14 2v6h6"></path>
                                 <line x1="16" y1="13" x2="8" y2="13"></line>
@@ -123,15 +194,17 @@
                     </div>
                     <div class="dt-service-card__divider"></div>
                     <p class="dt-service-card__description">
-                        With an Experienced Professional Team of Planners & Engineers, we focus on Delivering Sustainable Mobility Solutions
+                        With an Experienced Professional Team of Planners & Engineers, we focus on Delivering
+                        Sustainable Mobility Solutions.
                     </p>
                 </div>
-    
+
                 <!-- Service Card 4 -->
                 <div class="dt-service-card">
                     <div class="dt-service-card__header">
                         <div class="dt-service-card__icon">
-                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                viewBox="0 0 24 24">
                                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                                 <line x1="8" y1="21" x2="16" y2="21"></line>
                                 <line x1="12" y1="17" x2="12" y2="21"></line>
@@ -141,98 +214,327 @@
                     </div>
                     <div class="dt-service-card__divider"></div>
                     <p class="dt-service-card__description">
-                        With an young innovative Software development team, we provide solutions for different Transportation requirements using Artificial Intelligence, Big Data and Computer Vision
+                        With an innovative Software development team, we provide solutions for different Transportation
+                        requirements using Artificial Intelligence, Big Data, and Computer Vision.
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- New Services Section Starts -->
+    <section class="dt-new-services" id="service">
+        <div class="dt-new-services__container">
+            <h2 class="dt-new-services__title">OUR SERVICES</h2>
+            <div class="dt-new-services__underline"></div>
+            <div class="dt-new-services__grid">
+                <!-- Service 1: Classified Turning Movement Counts -->
+                <div class="dt-new-service-card dt-new-service-card--left">
+                    <div class="dt-new-service-card__image">
+                        <img src="https://trafficcount.live/wp-content/uploads/2024/03/driving-school-isometric-composition-with-conceptual-pictograms-arrows-text-captions-cars-road-intersection-illustration_1284-27265.webp" alt="Classified Turning Movement Counts">
+                    </div>
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Classified Turning Movement Counts</h3>
+                        <p class="dt-new-service-card__description">
+                            All vehicles for all movements are counted and classified and broken down into 15-minute
+                            time intervals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 2: Classified Vehicle Link / Mid-Block Counts -->
+                <div class="dt-new-service-card dt-new-service-card--right">
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Classified Vehicle Link / Mid-Block Counts</h3>
+                        <p class="dt-new-service-card__description">
+                            This is a two-way classified count of all vehicles, broken down into 15-minute time
+                            intervals.
+                        </p>
+                    </div>
+                    <div class="dt-new-service-card__image">
+                        <img src="https://miro.medium.com/v2/resize:fit:2000/1*ICN7fWd5r2q1XlLTPv_EWg.jpeg" alt="Classified Vehicle Link / Mid-Block Counts">
+                    </div>
+                </div>
+
+                <!-- Service 3: Pedestrian Movement / Crossing Counts -->
+                <div class="dt-new-service-card dt-new-service-card--left">
+                    <div class="dt-new-service-card__image">
+                        <img src="https://visualcortex.com/wp-content/uploads/2023/08/People-Counting-with-Computer-Vision_Watermarked-1.png" alt="Pedestrian Movement / Crossing Counts">
+                    </div>
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Pedestrian Movement / Crossing Counts</h3>
+                        <p class="dt-new-service-card__description">
+                            For this count type, all pedestrian movements and crossings are collected in volume per
+                            direction of travel, and broken down into 15-minute intervals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4: Queue Length Surveys -->
+                <div class="dt-new-service-card dt-new-service-card--right">
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Queue Length Surveys</h3>
+                        <p class="dt-new-service-card__description">
+                            This survey measures the number of vehicles in a queue just before the traffic signals turn
+                            to green when the queue is at its longest, or simply the longest queue at a stop sign
+                            intersection. Queue lengths are recorded as the maximum number of vehicles per lane in each
+                            5-minute interval.
+                        </p>
+                    </div>
+                    <div class="dt-new-service-card__image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxivNQ6FysFan_ZiWSEMwj36ojRwr1GoQY0w&s" alt="Queue Length Surveys">
+                    </div>
+                </div>
+
+                <!-- Service 5: Bicycle Counts -->
+                <div class="dt-new-service-card dt-new-service-card--left">
+                    <div class="dt-new-service-card__image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIz9cJiMf7Uxfs4cgdi7oJJQHq078KQ41tOQ&s" alt="Bicycle Counts">
+                    </div>
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Bicycle Counts</h3>
+                        <p class="dt-new-service-card__description">
+                            All cyclist movements and crossings are collected in volume per direction of travel, and
+                            broken down into 15-minute intervals.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 6: Journey Time Surveys -->
+                <div class="dt-new-service-card dt-new-service-card--right">
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Journey Time Surveys</h3>
+                        <p class="dt-new-service-card__description">
+                            These surveys show you how long it takes to travel from one point to another, generally
+                            through a busy corridor of traffic. These surveys are undertaken by installing portable GPS
+                            units into each survey vehicle. These surveys also provide information relating to the
+                            delays encountered at each section of the route.
+                        </p>
+                    </div>
+                    <div class="dt-new-service-card__image">
+                        <img src="https://surveytech.com.au/wp-content/uploads/2020/01/Travel-Time-Surveys-1.jpg" alt="Journey Time Surveys">
+                    </div>
+                </div>
+
+                <!-- Service 7: Car Park / Parking Surveys -->
+                <div class="dt-new-service-card dt-new-service-card--left">
+                    <div class="dt-new-service-card__image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR66tw9y7yZgznwNnDk1ArRq1zo9W_aSAFLbw&s" alt="Car Park / Parking Surveys">
+                    </div>
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Car Park / Parking Surveys</h3>
+                        <p class="dt-new-service-card__description">
+                            On-street, kerbside, off-street, multi-storey car parks. These surveys assess the percentage
+                            occupancy and usage levels throughout various times of the day and week.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 8: Illegal Movement Surveys -->
+                <div class="dt-new-service-card dt-new-service-card--right">
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Illegal Movement Surveys</h3>
+                        <p class="dt-new-service-card__description">
+                            These surveys provide a classified breakdown by time intervals, showing all vehicles that
+                            undertake the observed illegal movement.
+                        </p>
+                    </div>
+                    <div class="dt-new-service-card__image">
+                        <img src="https://media.istockphoto.com/id/1447831485/vector/no-checklist-sign-on-white-background.jpg?s=612x612&w=0&k=20&c=pxCG-2c2wDf5WhZxLW29da_bl8w1WrQJM-rFCALBAQA=" alt="Illegal Movement Surveys">
+                    </div>
+                </div>
+
+                <!-- Service 9: Rail / Bus Passenger Boarding / Alighting Surveys -->
+                <div class="dt-new-service-card dt-new-service-card--left">
+                    <div class="dt-new-service-card__image">
+                        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Rail / Bus Passenger Boarding / Alighting Surveys">
+                    </div>
+                    <div class="dt-new-service-card__content">
+                        <h3 class="dt-new-service-card__title">Rail / Bus Passenger Boarding / Alighting Surveys</h3>
+                        <p class="dt-new-service-card__description">
+                            These surveys provide data relating to the volume of users who board and alight each method
+                            of public transport, showing usage levels for various times of the day and week.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footage Analysis Section -->
+    <section class="footage-analysis-section" id="footage">
+        <h2>Footage Analysis</h2>
+        <div class="footage-analysis-container">
+            <!-- Staff Working Section -->
+            <div class="staff-section">
+                <h3>Staff Working on Analyzing Footage</h3>
+                <div class="image-scroll-container">
+                    <div class="image-scroll">
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Data analyst reviewing traffic footage">
+                            <p>Data Analysis</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Team reviewing traffic data">
+                            <p>Team Collaboration</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Traffic data visualization">
+                            <p>Data Visualization</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Analyst working on reports">
+                            <p>Report Preparation</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Team meeting for traffic analysis">
+                            <p>Team Meeting</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Report Format Section -->
+            <div class="report-section">
+                <h3>Report Format</h3>
+                <div class="image-scroll-container">
+                    <div class="image-scroll">
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Traffic analysis report sample">
+                            <p>Traffic Volume Report</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Traffic pattern analysis">
+                            <p>Pattern Analysis</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Traffic data visualization">
+                            <p>Data Visualization</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Detailed traffic report">
+                            <p>Detailed Analysis</p>
+                        </div>
+                        <div class="image-card">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Executive summary report">
+                            <p>Executive Summary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <div class="text-card">
+                        <p>One of our core strengths at MHC Traffic India Pvt Ltd is our experience in undertaking all
+                            types of traffic data analysis from footage, undertaken either by ourselves or our clients.
+                            We have had an established presence and base in the Indian market for over 15 years now,
+                            with an experienced team of over 75 working at our Head Office in Bangalore. The footage can
+                            be analyzed for all types of surveys and classifications, and all data will be provided in
+                            our industry leading report format, which can always be tailored to suit any individual
+                            requirements the client may have.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--surveillance-section-->
     <section class="surveillance-section" id="video">
         <h2 class="surveillance-title">Mini HD Video Surveillance</h2>
-        
+
         <p class="surveillance-description">
-            Our sophisticated in-house built mini HD CCTV cameras are technologically advanced, and allow us to undertake and provide in-depth data and analysis.
+            Our sophisticated in-house built mini HD CCTV cameras are technologically advanced, and allow us to
+            undertake and provide in-depth data and analysis.
         </p>
-        
+
         <p class="surveillance-subtext">
-            These cameras are capable of providing continuous real-time recording in full HD, and with over 500 of them to deploy on any given project, we are capable of undertaking the largest scale of survey, even at short notice.
+            These cameras are capable of providing continuous real-time recording in full HD, and with over 500 of them
+            to deploy on any given project, we are capable of undertaking the largest scale of survey, even at short
+            notice.
         </p>
-        
+
         <div class="features-grid">
             <div class="feature-card">
-                <img src="http://3.111.171.201:8000/public/images/camera-placement.jpg" alt="Installation and placement" class="feature-image">
+                <img src="..\images\camera-analysis.jpg" alt="Traffic camera installation on pole" class="feature-image">
                 <h3 class="feature-title">Installation and placement</h3>
                 <p class="feature-description">
-                    The camera units are fully self-contained and attached at the top of the lighting column. There are no pavement based units to cause trip-hazards in compact locations, or obvious units to potentially impact on typical junction performance.
+                    The camera units are fully self-contained and attached at the top of the lighting column. There are
+                    no pavement based units to cause trip-hazards in compact locations, or obvious units to potentially
+                    impact on typical junction performance.
                 </p>
             </div>
-            
-            <!-- <div class="feature-card">
-                <img src="path-to-image-2.jpg" alt="How are the cameras used?" class="feature-image">
-                <h3 class="feature-title">How are the cameras used?</h3>
-                <p class="feature-description">
-                    The cameras can be used to provide detailed recordings of any types of traffic, pedestrian, cycle, queue length, stop-line delay, saturation flow survey, however this list is not exhaustive.
-                </p>
-            </div> -->
-            
+
             <div class="feature-card">
-                <img src="http://3.111.171.201:8000/public/images/camera-analysis.jpg" alt="Review and Analysis" class="feature-image">
+                <img src="..\images\camera-placement.jpg" alt="Traffic camera footage analysis" class="feature-image">
                 <h3 class="feature-title">Review and Analysis</h3>
                 <p class="feature-description">
-                    The footage can then be provided on a hard drive to the client, to allow any further analysis or verification to be undertaken at any point in the future.
+                    The footage can then be provided on a hard drive to the client, to allow any further analysis or
+                    verification to be undertaken at any point in the future.
                 </p>
             </div>
         </div>
     </section>
-    
+
+    <!-- Contact Section -->
     <section class="mhc-contact-section" id="contact">
         <div class="mhc-contact-container">
             <div class="mhc-contact-header">
                 <h2>Let's Connect</h2>
                 <p>We're here to help with your traffic management needs</p>
+                <p class="mhc-contact-intro">
+                    Please feel free to reach out and contact us using any of the methods or contact form below.
+                    We would be delighted to hear from you, and will be more than happy to assist you in any way
+                    possible.
+                </p>
             </div>
-            
+            <!-- Map Image -->
+            <div class="mhc-map-container">
+                <img src="https://blog.quickadminpanel.com/wp-content/uploads/2017/11/location-1024x576.jpg" alt="Office Location Map in Bangalore" class="mhc-map-image">
+            </div>
+            <!-- Contact Form -->
             <div class="mhc-contact-grid">
                 <div class="mhc-contact-info">
                     <div class="mhc-info-card">
                         <div class="mhc-info-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                                <circle cx="12" cy="10" r="3" />
                             </svg>
                         </div>
                         <div class="mhc-info-content">
                             <h3>Visit Us</h3>
-                            <p>123 Business Street<br>City, Country 12345</p>
+                            <p>MHC traffic India, above Sangeetha mobiles,<br>opposite agrwal eye hospital,<br>Yelahanka new town, bangalore 560064</p>
                         </div>
                     </div>
-    
+
                     <div class="mhc-info-card">
                         <div class="mhc-info-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
                             </svg>
                         </div>
                         <div class="mhc-info-content">
                             <h3>Call Us</h3>
-                            <p>+1 234 567 890</p>
+                            <p>+91 94937 57230</p>
                         </div>
                     </div>
-    
+
                     <div class="mhc-info-card">
                         <div class="mhc-info-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
                             </svg>
                         </div>
                         <div class="mhc-info-content">
                             <h3>Email Us</h3>
-                            <p>contact@mhctraffic.com</p>
+                            <p>admin@mhctrafficIndia.com</p>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="mhc-contact-form-container">
                     <form id="mhcContactForm" class="mhc-contact-form">
                         <div class="mhc-form-row">
@@ -245,17 +547,17 @@
                                 <input type="email" id="email" required>
                             </div>
                         </div>
-    
+
                         <div class="mhc-form-group">
                             <label for="subject">Subject</label>
                             <input type="text" id="subject" required>
                         </div>
-    
+
                         <div class="mhc-form-group">
                             <label for="message">Message</label>
                             <textarea id="message" required></textarea>
                         </div>
-    
+
                         <button type="submit" class="mhc-submit-btn">Send Message</button>
                     </form>
                 </div>
@@ -263,44 +565,131 @@
         </div>
     </section>
 
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-intro">
+                <h3>Why Choose Us</h3>
+                <p>
+                    Our board of 6 directors possesses a combined over 100 years of relevant experience and expertise in
+                    the traffic data collection and analysis fields, undertaking thousands of projects every year across
+                    numerous countries and multiple continents. At all times, our team strives to react and respond to
+                    our clients' requirements, providing the most cost-effective tailored solutions with the shortest
+                    possible lead-in and turnaround times. This experience, combined with our unrivaled data reports and
+                    insights, ensures our confidence in delivering industry-leading services and products. Please feel
+                    free to get in touch with our team to discuss any requirements or questions you may have.
+                </p>
+            </div>
+        </div>
+        <div class="director-grid">
+            <!-- Director 1 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Neil McMillan">
+                </div>
+                <div class="director-info">
+                    <h3>Neil McMillan</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">25 years of traffic data collection experience worldwide.</p>
+                </div>
+            </div>
+            <!-- Director 2 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="John Doe">
+                </div>
+                <div class="director-info">
+                    <h3>John Doe</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">20 years of experience in traffic data analysis.</p>
+                </div>
+            </div>
+            <!-- Director 3 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Jane Smith">
+                </div>
+                <div class="director-info">
+                    <h3>Jane Smith</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">18 years of experience in traffic management.</p>
+                </div>
+            </div>
+            <!-- Director 4 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Robert Brown">
+                </div>
+                <div class="director-info">
+                    <h3>Robert Brown</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">22 years of experience in traffic technology.</p>
+                </div>
+            </div>
+            <!-- Director 5 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Emily Davis">
+                </div>
+                <div class="director-info">
+                    <h3>Emily Davis</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">15 years of experience in traffic data collection.</p>
+                </div>
+            </div>
+            <!-- Director 6 -->
+            <div class="director-card">
+                <div class="director-image">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Michael Wilson">
+                </div>
+                <div class="director-info">
+                    <h3>Michael Wilson</h3>
+                    <p class="director-role">Director</p>
+                    <p class="director-description">17 years of experience in traffic analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
+    <!-- Footer Section -->
     <footer class="mhc-footer">
         <div class="mhc-footer-container">
             <!-- Company Info Section -->
             <div class="mhc-footer-section">
                 <div class="mhc-footer-brand">
                     <h2>MHC Traffic</h2>
-                    <p>Professional traffic management solutions for all your needs. Committed to safety and efficiency on the roads.</p>
+                    <p>Professional traffic management solutions for all your needs. Committed to safety and efficiency
+                        on the roads.</p>
                 </div>
                 <div class="mhc-social-links">
                     <a href="#" aria-label="Facebook">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                         </svg>
                     </a>
                     <a href="#" aria-label="Twitter">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
                         </svg>
                     </a>
                     <a href="#" aria-label="LinkedIn">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
-                            <circle cx="4" cy="4" r="2"/>
+                            <path
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                            <circle cx="4" cy="4" r="2" />
                         </svg>
                     </a>
                     <a href="#" aria-label="Instagram">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
-                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                         </svg>
                     </a>
                 </div>
             </div>
-    
+
             <!-- Quick Links Section -->
             <div class="mhc-footer-section">
                 <h3>Quick Links</h3>
@@ -312,7 +701,7 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-    
+
             <!-- Services Section -->
             <div class="mhc-footer-section">
                 <h3>Our Services</h3>
@@ -324,37 +713,41 @@
                     <li><a href="#">Traffic Planning</a></li>
                 </ul>
             </div>
-    
+
             <!-- Contact Info Section -->
             <div class="mhc-footer-section">
                 <h3>Contact Info</h3>
                 <address class="mhc-contact-info">
                     <p>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                            <circle cx="12" cy="10" r="3"/>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                            <circle cx="12" cy="10" r="3" />
                         </svg>
                         MHC traffic India, above Sangeetha mobiles,<br>
                         opposite agrwal eye hospital,<br>
-                        Yelahanka new town, bangalore 560064
+                        Yelahanka new town, bangalore 560064
                     </p>
                     <p>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
                         </svg>
                         +91 94937 57230
                     </p>
                     <p>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                            <polyline points="22,6 12,13 2,6"/>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
                         </svg>
                         admin@mhctrafficIndia.com
                     </p>
                 </address>
             </div>
         </div>
-    
+
         <!-- Bottom Bar -->
         <div class="mhc-footer-bottom">
             <div class="mhc-footer-container">
@@ -367,8 +760,7 @@
         </div>
     </footer>
 
-    
-
-    <script src="http://3.111.171.201:8000/public/js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
